@@ -1,0 +1,157 @@
+.section__profile {
+    min-height: 100vh;
+}
+
+.profile__box {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 30px 15px;
+    background-color: var(--bg-color-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.profile__img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-color: var(--bg-color-2);
+    border: 1px solid var(--border-color-1);
+    position: relative;
+}
+
+.profile__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile__img label {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(0 0 0 / 30%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.profile__img label svg {
+    width: 26px;
+    height: 26px;
+    stroke: #FFFFFF;
+}
+
+.profile__img:hover label {
+    opacity: 1;
+}
+
+.edit__form__names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit__form__names .edit__form__group {
+    width: 49%;
+}
+
+.edit__form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.edit__form__group span {
+    font-size: var(--font-size-0);
+    margin-bottom: 4px;
+    color: var(--text-color-2);
+    font-weight: 500;
+}
+
+.edit__form__group p {
+    font-size: var(--font-size-0);
+    margin-top: 4px;
+    color: #ff5a5a;
+}
+
+.edit__form__group input,
+.edit__form__group textarea {
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius-1);
+}
+
+.edit__form__group input:focus,
+.edit__form__group textarea:focus {
+    border: 1px solid var(--border-color-2);
+}
+
+.edit__form__group textarea {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.edit__form__btn {
+    margin-top: 2rem;
+}
+
+.edit__form__btn button {
+    padding: 8px 25px;
+    outline: none;
+    border-radius: var(--border-radius-1);
+    border: 1px solid var(--text-color-1);
+    background-color: var(--text-color-1);
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.edit__form__btn button:hover {
+    background-color: var(--text-color-2);
+    border: 1px solid var(--text-color-2);
+}
+
+.errorMessage,
+.successMessage {
+    padding: 20px;
+    border-radius: var(--border-radius-2);
+    cursor: context-menu;
+    margin-top: 2rem;
+}
+
+.errorMessage p,
+.successMessage p {
+    font-size: var(--font-size-0);
+}
+
+.successMessage {
+    background-color: #ebffeb;
+    border: 1px solid #70af70;
+}
+
+.successMessage p {
+    color: #70af70;
+}
+
+.errorMessage {
+    background-color: #ffebeb;
+    border: 1px solid #ff7f7f;
+}
+
+.errorMessage p {
+    color: #ff7f7f;
+}

@@ -1,0 +1,60 @@
+.section__profile {
+    min-height: 100vh;
+}
+
+.profile__box {
+    max-width: 700px;
+    margin: 3rem auto;
+}
+
+.user__image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto;
+    background-color: var(--bg-color-3);
+    border-radius: 50%;
+}
+
+.user__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user__name {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.user__links {
+    text-align: center;
+}
+
+.user__links a {
+    display: inline-block;
+}
+
+.user__links button {
+    margin: 0 1rem;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.user__links button svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color-2);
+}
+
+.user__links button svg:hover {
+    fill: var(--text-color-1);
+}
+
+.user__description {
+    margin: 1rem 0;
+    text-align: center;
+}

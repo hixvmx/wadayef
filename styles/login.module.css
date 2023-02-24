@@ -1,0 +1,112 @@
+.login__section {
+    margin: 3rem auto;
+    max-width: 700px;
+}
+
+.login__form {
+    background-color: var(--bg-color-1);
+    border-radius: var(--border-radius-2);
+    padding: 20px 15px;
+    position: relative;
+}
+
+.form__title {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.errorMessage,
+.successMessage {
+    padding: 20px;
+    border-radius: var(--border-radius-2);
+    cursor: context-menu;
+}
+
+.errorMessage p,
+.successMessage p {
+    font-size: var(--font-size-0);
+}
+
+.successMessage {
+    background-color: #ebffeb;
+    border: 1px solid #70af70;
+}
+
+.successMessage p {
+    color: #70af70;
+}
+
+.errorMessage {
+    background-color: #ffebeb;
+    border: 1px solid #ff7f7f;
+}
+
+.errorMessage p {
+    color: #ff7f7f;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.form__group span,
+.form__group p {
+    font-size: var(--font-size-0);
+}
+
+.form__group span {
+    margin-bottom: 4px;
+    color: var(--text-color-3);
+}
+
+.form__group span i {
+    color: #ff5a5a;
+    margin-right: 5px;
+}
+
+.form__group p {
+    margin-top: 8px;
+    color: #ff5a5a;
+}
+
+.form__group input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius-1);
+}
+
+.form__group input:focus {
+    border: 1px solid var(--border-color-2);
+}
+
+.form__btn {
+    margin-top: 3rem;
+}
+
+.form__btn button {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: var(--border-radius-1);
+    border: 1px solid var(--text-color-1);
+    background-color: var(--text-color-1);
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.form__btn button:hover {
+    background-color: var(--text-color-2);
+    border: 1px solid var(--text-color-2);
+}
+
+.form__footer {
+    margin-top: 3rem;
+}
+
+.form__footer p a:hover {
+    text-decoration: underline;
+}

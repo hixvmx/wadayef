@@ -1,0 +1,165 @@
+.newjob__section {
+    margin: 3rem 0;
+}
+
+.newjob__box {
+    max-width: 700px;
+    margin: auto;
+    background-color: var(--bg-color-1);
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.newjob__title {
+    padding: 20px 14px;
+}
+
+.errorMessage,
+.successMessage {
+    padding: 20px;
+    border-radius: var(--border-radius-2);
+    cursor: context-menu;
+    margin-top: 3rem;
+}
+
+.errorMessage p,
+.successMessage p {
+    font-size: var(--font-size-0);
+}
+
+.successMessage {
+    background-color: #ebffeb;
+    border: 1px solid #70af70;
+}
+
+.successMessage p {
+    color: #70af70;
+}
+
+.errorMessage {
+    background-color: #ffebeb;
+    border: 1px solid #ff7f7f;
+}
+
+.errorMessage p {
+    color: #ff7f7f;
+}
+
+.newjob__row {
+    padding: 20px 14px;
+}
+
+.newjob__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.newjob__group span,
+.newjob__group p {
+    font-size: var(--font-size-0);
+}
+
+.newjob__group span {
+    margin-bottom: 4px;
+    color: var(--text-color-2);
+    font-weight: 500;
+}
+
+.newjob__group span i {
+    color: #ff5a5a;
+    margin-right: 5px;
+}
+
+.newjob__group p {
+    margin-top: 8px;
+    color: #ff5a5a;
+}
+
+.newjob__group input,
+.newjob__group select,
+.newjob__group textarea {
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius-1);
+}
+
+.newjob__group textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.newjob__group input:focus,
+.newjob__group select:focus,
+.newjob__group textarea:focus {
+    border: 1px solid var(--border-color-2);
+}
+
+.newjob__group input:not(:placeholder-shown),
+.newjob__group textarea:not(:placeholder-shown) {
+    background-color: #f7fff3;
+    border: 1px solid var(--index-color);
+}
+
+.newjob__group select option:valid {
+    background-color: #f7fff3;
+    border: 1px solid var(--index-color);
+}
+
+.newjob__categories label {
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.newjob__categories label div {
+    background-color: transparent;
+    border: 1px solid var(--border-color-1);
+    border-radius: var(--border-radius-1);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.newjob__categories label div span {
+    font-weight: 500;
+    font-size: var(--font-size-0);
+    color: var(--text-color-3);
+}
+
+.newjob__categories label div:hover {
+    border: 1px solid var(--border-color-2);
+}
+
+.newjob__categories label input[type="radio"]:checked + div {
+    background-color: #f7fff3;
+    border: 1px solid var(--index-color);
+}
+
+.newjob__btn {
+    margin-top: 3rem;
+}
+
+.newjob__btn button {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: var(--border-radius-1);
+    border: 1px solid var(--text-color-1);
+    background-color: var(--text-color-1);
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.newjob__btn button:hover {
+    background-color: var(--text-color-2);
+    border: 1px solid var(--text-color-2);
+}
+
+#itsok {
+    background-color: #f7fff3;
+    border: 1px solid var(--index-color);
+}
